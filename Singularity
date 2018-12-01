@@ -54,7 +54,7 @@ apt-get update
 apt-get install -y ffmpeg
 
 # More utilities
-apt-get install -y graphviz libatlas-dev libfreetype6 libfreetype6-dev \
+apt-get install -y graphviz libfreetype6 libfreetype6-dev \
     libgraphviz-dev liblapack-dev swig libxft-dev libxml2-dev \
     libxslt-dev zlib1g-dev
  
