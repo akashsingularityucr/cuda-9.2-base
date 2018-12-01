@@ -92,7 +92,8 @@ pip install --no-cache-dir jupyterlab
 pip install --no-cache-dir pygraphviz
 pip install --no-cache-dir networkx
 pip install --no-cache-dir numexpr
-pip install --no-cache-dir pymc
+# Not working as of 2018-12-01
+#pip install --no-cache-dir pymc
 pip install --no-cache-dir patsy
 pip install --no-cache-dir Cython
 pip install --no-cache-dir statsmodels
