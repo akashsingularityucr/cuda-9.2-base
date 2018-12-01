@@ -49,7 +49,7 @@ apt-get install -y checkinstall yasm libjpeg-dev libjpeg8-dev \
     libxvidcore-dev x264 v4l-utils libgtk-3-dev
     
 # Add PPA for ffmpeg
-add-apt-repository -y ppa:jonathonf/ffmpeg-3
+add-apt-repository -y ppa:jonathonf/ffmpeg-4
 apt-get update
 apt-get install -y ffmpeg
 
