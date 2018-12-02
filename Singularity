@@ -144,7 +144,7 @@ pip install --no-cache-dir scikit-learn==0.19.2
 pip install --no-cache-dir ipykernel
     
 # Workaround for Tensorflow from Anaconda looking for libcuda.so.1
-ln -s /usr/local/cuda-9.0/targets/x86_64-linux/lib/stubs/libcuda.so /usr/local/cuda-9.0/targets/x86_64-linux/lib/stubs/libcuda.so.1
+ln -s /usr/local/cuda-9.2/targets/x86_64-linux/lib/stubs/libcuda.so /usr/local/cuda-9.2/targets/x86_64-linux/lib/stubs/libcuda.so.1
 
 # Add packages that are also in system python via conda or pip
 conda install -y -c anaconda scipy nose h5py scikit-image scikit-learn matplotlib pandas sympy virtualenv pygments sphinx
@@ -153,4 +153,4 @@ conda install -y -c anaconda scipy nose h5py scikit-image scikit-learn matplotli
 echo 'export LC_ALL=C' >>$SINGULARITY_ENVIRONMENT
 Set PATH and LD_LIBRARY_PATH in Singularity environment  
 echo 'export PATH=/opt/conda/bin:$PATH' >>$SINGULARITY_ENVIRONMENT
-echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-9.0/targets/x86_64-linux/lib/stubs/' >>$SINGULARITY_ENVIRONMENT
+echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-9.2/targets/x86_64-linux/lib/stubs/' >>$SINGULARITY_ENVIRONMENT
