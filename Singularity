@@ -103,7 +103,7 @@ pip install --no-cache-dir Pweave
 pip install --no-cache-dir numba
 
 # TensorFlow, from conda instead of pip (pip is not working for it right now)
-conda install -y -c anaconda tensorflow-gpu=1.8
+conda install -y -c anaconda tensorflow-gpu=1.9
 #pip install --no-cache-dir tensorflow-gpu==1.8
     
 # Deep Mind Sonnet
@@ -113,7 +113,7 @@ pip install --no-cache-dir dm-sonnet-gpu==1.17
 pip install --no-cache-dir Theano==1.0.1
 
 # Keras
-pip install --no-cache-dir keras==2.2.1
+pip install --no-cache-dir keras==2.2.4
     
 # OpenCV from pip, including contrib.  This makes the install MUCH faster.
 # See https://pypi.python.org/pypi/opencv-contrib-python for capabilities 
