@@ -121,7 +121,7 @@ pip install --no-cache-dir keras==2.2.4
 pip install --no-cache-dir opencv-contrib-python    
 
 #Keras ml package
-pip install --no-cache-dir keras_vggface
+#pip install --no-cache-dir keras_vggface
     
 #For keras generator
 pip install --no-cache-dir bcolz
