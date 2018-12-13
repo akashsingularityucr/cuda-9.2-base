@@ -132,7 +132,7 @@ pip install --no-cache-dir niftynet
 pip install --no-cache-dir SimpleITK
     
 #Parallel Processing
-pip install --no-cache-dir joblib
+#pip install --no-cache-dir joblib
     
 #Progess
 pip install --no-cache-dir tqdm
